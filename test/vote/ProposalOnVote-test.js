@@ -3,16 +3,12 @@
  */
 var _ = require('lodash');
 var assert = require('assert');
-
 var Sandbox = require('ethereum-sandbox-client');
 var helper = require('ethereum-sandbox-helper');
-
 var SolidityFunction = require('web3/lib/web3/function');
 var ethTx = require('ethereumjs-tx');
-
 var async = require('async');
 var start = new Date().getTime();
-
 var log = console.log;
 
 
